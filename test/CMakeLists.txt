@@ -1,6 +1,6 @@
 # Copyright 2022 Google LLC
 # SPDX-License-Identifier: Apache-2.0
-
+cmake_minimum_required(VERSION 3.20.0)
 # Create a list of common files needed for tests
 set(
   COMMON_FILE_LIST

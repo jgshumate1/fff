@@ -1,6 +1,6 @@
 # Copyright 2022 Google LLC
 # SPDX-License-Identifier: Apache-2.0
-
+cmake_minimum_required(VERSION 3.20.0)
 # Create the driver test binary
 add_executable(driver_test
     src/driver.c

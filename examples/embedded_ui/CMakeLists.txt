@@ -1,6 +1,6 @@
 # Copyright 2022 Google LLC
 # SPDX-License-Identifier: Apache-2.0
-
+cmake_minimum_required(VERSION 3.20.0)
 # Create the ui_test_ansic test binary
 add_executable(ui_test_ansic src/UI_test_ansic.c src/UI.c)
 target_include_directories(ui_test_ansic PRIVATE include)

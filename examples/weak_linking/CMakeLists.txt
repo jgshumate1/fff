@@ -1,6 +1,6 @@
 # Copyright 2022 Google LLC
 # SPDX-License-Identifier: Apache-2.0
-
+cmake_minimum_required(VERSION 3.20.0)
 # Skip these tests for Windows
 if(WIN32)
     message(STATUS "Weak linking requires __attribute__((weak)) which isn't supported on MS VS, skipping tests")
