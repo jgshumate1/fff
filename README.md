@@ -40,6 +40,13 @@ cmake --build build
 ctest --test-dir build --output-on-failure
 ```
 
+### Visual Studio 2022 builds
+```shell
+cmake -G "Visual Studio 17 2022" -DFFF_GENERATE=ON -DFFF_UNIT_TESTING=ON
+Open solution file in Visual Studio
+Build projects and test will be discovered
+```
+
 ## Hello Fake World!
 
 Say you are testing an embedded user interface and you have a function that
